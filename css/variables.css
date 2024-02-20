@@ -4,6 +4,7 @@
     --color-rgba1: rgba(255, 255, 255, 0.3);
     --color-rgba2: rgba(255, 255, 255, 0.6);
     --color-negro:#090909;
+    --color-rgba3: rgba(0, 0, 0, 0.2);
     --linear-gradient:linear-gradient(45deg, #ccee66, #6e9623);
-    --font-primary: 'Noto Sans', sans-serif;
+    --font-primary: "Noto Sans-serif";
 }

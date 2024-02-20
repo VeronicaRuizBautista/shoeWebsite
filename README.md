@@ -121,3 +121,12 @@ La propiedad transform en CSS se utiliza para aplicar transformaciones a un elem
 header::before 
 La selección header::before en CSS se utiliza para aplicar estilos a un pseudo-elemento ::before que se coloca antes del contenido del elemento <header> en el documento HTML.
 Este pseudo-elemento se utiliza comúnmente para añadir contenido decorativo o estilos adicionales a un elemento sin necesidad de agregar elementos adicionales al HTML.
+
+Content: ;
+La propiedad content en CSS se utiliza para insertar contenido generado con pseudo-elementos (::before y ::after). Sin embargo, su uso está limitado a pseudo-elementos y no es aplicable directamente a los elementos HTML regulares.
+
+Font-weight:
+La propiedad font-weight en CSS se utiliza para especificar el grosor o el peso de la fuente para el texto dentro de un elemento HTML. Puede tomar varios valores, que van desde normal hasta bold y valores numéricos que van desde 100 hasta 900, donde 400 generalmente se considera normal y 700 se considera bold.
+normal: Define la fuente con un grosor normal.
+bold: Define la fuente con un grosor más oscuro que normal.
+Valores numéricos de 100 a 900: Define el grosor específico de la fuente. 

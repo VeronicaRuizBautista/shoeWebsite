@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans-serif";
+    font-family: --font-primary;
     background-color: var(--color-uno);
 }
 nav {
@@ -93,4 +93,28 @@ header::before {
     height: 120%;
     transform: rotate(70deg);
     z-index: 0;
+}
+header::after{
+    content: "Ro645a";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-rgba3);
+    font-size: 17em;
+    font-weight: 700;
+    z-index: 0;
+}
+.body {
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2em;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+    max-width: 1250px;
+    margin: 0 3em;
+    padding: 0 3em;
 }
