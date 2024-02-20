@@ -1,4 +1,9 @@
 :root{
-    --color-primary: #f5f4f3ba;
+    --color-uno: #333;
+    --color-fff:#fff;
+    --color-rgba1: rgba(255, 255, 255, 0.3);
+    --color-rgba2: rgba(255, 255, 255, 0.6);
+    --color-negro:#090909;
+    --linear-gradient:linear-gradient(45deg, #ccee66, #6e9623);
     --font-primary: 'Noto Sans', sans-serif;
 }
