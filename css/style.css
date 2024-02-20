@@ -1,5 +1,47 @@
 @import url(variables.css);
 body{
-    background-color: var(--color-primary);
-    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans-serif";
+    background-color: #333;
+}
+nav {
+    color: #fff;
+    z-index: 99;
+    position: relative;
+}
+nav a, header a {
+    color: #fff;
+    text-decoration: none;
+}
+nav .containaer{
+    max-width: 1150px;
+    padding: 1em 2em;
+    margin: 0 auto;
+}
+nav .container >div{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+nav .menu,
+nav form,
+.footer,
+.footer .watch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+nav ul a {
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
