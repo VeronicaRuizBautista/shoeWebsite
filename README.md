@@ -27,9 +27,21 @@ El elemento <form> en HTML se utiliza para crear un formulario interactivo en un
 
 <i class=""><i/>
 El atributo class en el elemento <i> se utiliza para asignar una o más clases CSS al elemento. En este caso ("fas fas fa-search")se está utilizando una clase de la biblioteca Font Awesome, que es una biblioteca de iconos vectoriales populares. La clase "fas fa-search" se utiliza para representar un icono de búsqueda en la página web.
+"fas fa-cart-plus" representa un carrito de compras con un signo de suma. Este icono se utiliza comúnmente para indicar la acción de agregar un artículo al carrito de compras en una tienda en línea o en un sistema de comercio electrónico.
+La clase "fas fa-bars" representa un conjunto de barras horizontales, comúnmente utilizado para indicar un menú o una lista de opciones en un sitio web.
+La clase fas fa-star representa una estrellas
 
 <input type="" class="" placeholder="">
 El elemento <input> en HTML se utiliza para crear campos interactivos en formularios. 
 - El atributo type especifica el tipo de campo de entrada, como texto, contraseña, correo electrónico, etc.
 - El atributo class se utiliza para asignar una o más clases CSS al elemento, lo que permite aplicar estilos específicos al campo de entrada.
 - El atributo placeholder proporciona un texto de marcador de posición que se muestra dentro del campo antes de que el usuario ingrese algún valor. Ayuda a indicar qué tipo de información se espera en el campo.
+
+<button class=""><button/>
+El elemento <button> en HTML se utiliza para crear un botón interactivo en una página web. El atributo class se utiliza para asignar una o más clases CSS al botón, lo que permite aplicar estilos específicos al botón. 
+
+- <h1>: Se utiliza para definir el encabezado de nivel 1 en una página web, que generalmente es el título principal o más importante de la página. Es el encabezado más grande y visualmente destacado.
+
+- <h4>: Se utiliza para definir el encabezado de nivel 4 en una página web, que es de menor importancia que <h1>, <h2> y <h3>, pero más que <h5> y <h6>.
+
+- <p>: Se utiliza para definir un párrafo de texto en una página web. Se utiliza para agrupar y estructurar texto en párrafos, lo que facilita la legibilidad y la organización del contenido.
