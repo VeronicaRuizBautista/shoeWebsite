@@ -3,8 +3,14 @@
     --color-fff:#fff;
     --color-rgba1: rgba(255, 255, 255, 0.3);
     --color-rgba2: rgba(255, 255, 255, 0.6);
-    --color-negro:#090909;
     --color-rgba3: rgba(0, 0, 0, 0.2);
+    --color-rgba4: rgba(255, 255, 255, 0.5);
+    --color-negro:#090909;
+    --color-a3be52: #a3be52;
+    --color-6e9623: #6e9623;
+    --color-fcc204: #fcc204;
     --linear-gradient:linear-gradient(45deg, #ccee66, #6e9623);
     --font-primary: "Noto Sans-serif";
+    --border-footer: 3px #fff solid;
+    --box-shadow: 0px 0px 15px #fff;
 }
